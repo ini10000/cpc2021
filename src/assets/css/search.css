@@ -1,0 +1,102 @@
+.search_container {
+  background: rgba(115, 76, 104, 0.4);
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+}
+.search_nav {
+  background-color: #402737;
+  padding: 22px 114px;
+  justify-content: space-between;
+}
+.search_nav h1:hover {
+  cursor: pointer;
+}
+.navCollege {
+  margin-right: 11px;
+}
+.navHall {
+  margin-left: 72px;
+}
+.justified {
+  justify-content: center;
+  width: 100%;
+}
+.search_contents {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  height: calc(100vh - 84px);
+  margin: 0 114px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/search.png"),
+    linear-gradient(
+      180deg,
+      rgba(56, 34, 50, 0.65) 54.17%,
+      rgba(56, 34, 50, 0.26) 100%
+    );
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+.numberContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(145, 87, 134, 0.6) 0%,
+    rgba(145, 87, 134, 0.3) 100%
+  );
+  backdrop-filter: blur(24px);
+}
+.labelContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #402737;
+  backdrop-filter: blur(4px);
+}
+.counter {
+  color: white;
+  font-family: "CerebriSansPro-Regular";
+}
+.counter_container {
+  margin: 0 33px;
+}
+.search_bar {
+  width: 773px;
+  height: 71px;
+  color: #4f4f4f;
+  font-size: 21px;
+  font-family: "CerebriSansPro-Regular";
+  font-weight: 700;
+  padding-left: 57px;
+  border: 5px solid #402737;
+  border-right: 0;
+  border-radius: 10px 0 0 10px;
+}
+.search_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 156px;
+  height: 71px;
+  background: #402737;
+  border-radius: 0 10px 10px 0;
+  font-size: 21px;
+  font-family: "CerebriSansPro-Regular";
+  font-weight: 700;
+  color: white;
+}
+.searched:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
